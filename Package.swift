@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "AppCenter iOS Framework",
-            path: "AppCenter"
+            path: "AppCenter/AppCenter"
         )
     ]
 )
