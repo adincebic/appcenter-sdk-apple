@@ -17,16 +17,6 @@ let package = Package(
     targets: [
         .target(
             name: "AppCenter iOS Framework",
-            dependencies: [
-                "AppCenter iOS Fat Framework",
-                "AppCenter iOS Documentation",
-                "AppCenter macOS Framework",
-                "AppCenter macOS Fat Framework",
-                "AppCenter macOS Documentation",
-                "AppCenter tvOS Framework",
-                "AppCenter tvOS Fat Framework",
-                "AppCenter tvOS Documentation"
-        ],
             path: "AppCenter"
         )
     ]
